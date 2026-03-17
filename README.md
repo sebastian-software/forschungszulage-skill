@@ -1,5 +1,7 @@
 # Forschungszulage Skill
 
+> **Why is everything in German?** The Forschungszulage (Research Tax Credit) is a German tax incentive program. All applications must be submitted in German to the BSFZ (Bescheinigungsstelle Forschungszulage). This skill is intentionally written entirely in German because the application process, legal framework, language requirements, and review criteria are all German-specific. The skill helps craft German-language application texts that meet the strict formatting and content requirements of the BSFZ portal.
+
 Ein Claude-Skill, der Unternehmen durch den gesamten Antragsprozess der deutschen Forschungszulage (FZulG) begleitet - von der BSFZ-Bescheinigung bis zum Finanzamt-Antrag.
 
 ## Was kann dieser Skill?
@@ -12,10 +14,14 @@ Ein Claude-Skill, der Unternehmen durch den gesamten Antragsprozess der deutsche
 
 ## Installation
 
-Den Ordner als Skill in Claude Code einbinden:
+```bash
+npx skills add sebastian-software/forschungszulage-skill
+```
+
+Alternativ manuell klonen und als Skill einbinden:
 
 ```bash
-claude skills add /pfad/zu/forschungszulage-skill
+git clone https://github.com/sebastian-software/forschungszulage-skill.git
 ```
 
 ## Struktur
