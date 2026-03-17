@@ -34,15 +34,22 @@ Die Forschungszulage ist eine steuerliche Foerderung fuer Forschung und Entwickl
 
 ### Foerderfaehige Aufwendungen
 
-1. **Lohnkosten**: Dem Lohnsteuerabzug unterliegende Arbeitsloehnde von FuE-Mitarbeitern
-2. **Eigenleistungen**: Fuer Einzelunternehmer/Mitunternehmer pauschal 100 EUR/h (ab 2026)
-3. **Auftragsforschung**: 70% der Auftragskosten an Dritte
-4. **Abschreibungen**: Auf bewegliche Wirtschaftsgueter mit direktem Projektbezug (seit 2024)
-5. **Gemeinkostenpauschale**: 20% Zuschlag auf die foerderfaehigen Direktkosten (ab 2026)
+1. **Lohnkosten**: Dem Lohnsteuerabzug unterliegende Arbeitsloehne von FuE-Mitarbeitern, anteilig nach tatsaechlichem FuE-Zeitanteil
+2. **Geschaeftsfuehrer-Gehaelter (GmbH)**: Foerderfaehig als Arbeitslohn, soweit sie dem Lohnsteuerabzug unterliegen und angemessen sind. Das Finanzamt prueft die Angemessenheit - in der Praxis ist ein 100%-FuE-Ansatz bei GF-Gehaeltern schwer durchsetzbar, da ein Verwaltungsanteil erwartet wird. Realistisch ansetzbar sind je nach Unternehmensgroesse 50-80% der Arbeitszeit fuer FuE.
+3. **Eigenleistungen**: Fuer Einzelunternehmer/Mitunternehmer pauschal 100 EUR/h (ab 2026), max. 40h/Woche. Voraussetzung: zivilrechtlich wirksame Vereinbarung, die ernsthaft gewollt und tatsaechlich durchgefuehrt wird.
+4. **Auftragsforschung / externe Dienstleister**: 70% der Nettoauftragskosten an Dritte (seit 28.03.2024). Freelancer und externe Entwickler zaehlen hier. Effektiver Foerdersatz: KMU 24,5% (70% x 35%), Nicht-KMU 17,5% (70% x 25%). Unterauftraege des Auftragnehmers sind nicht foerderfaehig.
+5. **Abschreibungen**: Auf bewegliche Wirtschaftsgueter mit direktem Projektbezug (seit 2024)
+6. **Gemeinkostenpauschale**: 20% Zuschlag auf die foerderfaehigen Direktkosten (ab 2026, nur fuer Projekte mit Start ab 01.01.2026)
 
-### Auszahlung
+### Auszahlung und steuerliche Behandlung
 
-Die Forschungszulage wird mit der Einkommen- oder Koerperschaftsteuer verrechnet. Uebersteigt sie die Steuerschuld, wird der Differenzbetrag ausgezahlt. Das ist besonders wertvoll fuer Start-ups in Verlustphasen.
+Die Forschungszulage wird mit der naechsten Einkommen- oder Koerperschaftsteuerfestsetzung verrechnet (§10 FZulG). Uebersteigt sie die Steuerschuld, wird der Differenzbetrag ausgezahlt. Das ist besonders wertvoll fuer Start-ups in Verlustphasen. Die Foerderung ist nicht gewinnabhaengig und nicht rueckzahlbar.
+
+**Steuerliche Behandlung - wichtige Unterscheidung:**
+- **Kapitalgesellschaften (GmbH, AG)**: Die Forschungszulage ist als Betriebsvermoegenssmehrung **steuerpflichtig**. Sie muss als Ertrag verbucht werden und unterliegt der Koerperschaftsteuer und Gewerbesteuer. Die Nettofoerderung ist also geringer als der Bruttobetrag.
+- **Personengesellschaften und Einzelunternehmen**: Die steuerliche Behandlung ist guenstiger - keine Betriebsvermoegenssmehrung.
+
+Die Gesamtdauer vom BSFZ-Antrag bis zur Auszahlung betraegt erfahrungsgemaess ca. 6 Monate.
 
 ## Der zweistufige Antragsprozess
 
@@ -64,7 +71,21 @@ Die Bescheinigungsstelle Forschungszulage (BSFZ) prueft, ob das Vorhaben als FuE
 
 Nach Erhalt der BSFZ-Bescheinigung wird der eigentliche Antrag auf Forschungszulage beim zustaendigen Finanzamt gestellt - ueber ELSTER.
 
-**Frist**: Maximal 4 Jahre nach Ablauf des Jahres, in dem die Aufwendungen entstanden sind.
+**Frist**: Maximal 4 Jahre nach Ablauf des Jahres, in dem die Aufwendungen entstanden sind. Rueckwirkende Antraege sind moeglich (z.B. 2026 fuer Aufwendungen aus 2022).
+
+**Was das Finanzamt prueft** (anders als die BSFZ):
+- Sind die angegebenen Personalkosten tatsaechlich angefallen?
+- Ist der FuE-Zeitanteil plausibel und nachvollziehbar?
+- Sind die Geschaeftsfuehrergehaelter angemessen?
+- Stimmen die Auftragsforschungskosten mit Rechnungen ueberein?
+
+**Dokumentation fuer das Finanzamt:**
+- Personenmonate pro Projekt (von wann bis wann, welche Person, welcher FuE-Anteil) - kein Stundenprotokoll noetig, aber nachvollziehbare Zeiterfassung empfohlen
+- Gehaltsabrechnungen / Lohnnachweise
+- Rechnungen bei Auftragsforschung
+- Bei Geschaeftsfuehrern: Plausible Darstellung des FuE-Anteils vs. Verwaltungsanteil
+
+**Keine Berichtspflicht**: Nach dem Bescheid gibt es keine Pflicht zu Zwischen- oder Abschlussberichten, keine Veroeffentlichungspflicht, kein Reporting an die BSFZ.
 
 ## Die drei BSFZ-Bewertungskriterien
 
@@ -230,6 +251,42 @@ Planmaessiges Forschen zur Gewinnung neuer Kenntnisse mit dem Ziel, neue oder ve
 ### Experimentelle Entwicklung
 Nutzung bestehenden Wissens zur Entwicklung neuer oder verbesserter Produkte, Verfahren oder Dienstleistungen. Umfasst Konzeption, Planung und Dokumentation. Beispiel: Anpassung einer bekannten Technologie auf eine neue Anwendungsdomaene mit technischen Herausforderungen.
 
+## Sonderfall: Software- und KI-Projekte
+
+Softwareprojekte sind bei der Forschungszulage besonders heikel, weil die Abgrenzung zwischen Routineentwicklung und echtem FuE oft schwierig ist. Der BSFZ-Pruefleitfaden gibt klare Hinweise.
+
+### Was NICHT als FuE zaehlt
+
+- **Standardprogrammierung** mit etablierten Techniken und Werkzeugen
+- **Anpassung bestehender Software** an neue Anforderungen ohne technische Unsicherheit
+- **Reines Prompting/Konfiguration von LLMs** - ein bestehendes Sprachmodell mit einem System-Prompt zu versehen und in eine Anwendung zu integrieren ist keine FuE, auch wenn die Anwendung in der Branche neu ist
+- **Copy-Paste in neuen Anwendungsbereich** - ein bestehendes Tool in eine neue Branche zu uebertragen ist keine technische Innovation, selbst wenn die Branche es bisher nicht kennt
+- **Bug-Fixes, Wartung, Feature-Entwicklung** nach klaren Spezifikationen
+- **Integration verfuegbarer Komponenten** ohne technische Huerden
+
+### Was als FuE zaehlen KANN
+
+- **Zuverlaessigkeit und Sicherheit von LLM-Schnittstellen** - wie bekommt man verlässliche, testbare, sichere Rueckmeldungen von Sprachmodellen?
+- **Neuartige Verarbeitungspipelines** - wenn die Kombination von Technologien technische Unsicherheiten mit sich bringt
+- **Neue Algorithmen oder ML-Architekturen** - nicht die Nutzung bestehender Modelle, sondern deren Weiterentwicklung oder neuartige Kombination
+- **Automatisierung mit technischer Unsicherheit** - wenn unklar ist, ob die geforderte Qualitaet/Genauigkeit/Performance erreichbar ist
+
+### Der entscheidende Test
+
+Die Kernfrage ist: **Gab es einen Punkt, an dem das Projekt haette scheitern koennen - aus technischen, nicht aus wirtschaftlichen Gruenden?** Wenn ja: Welcher war das und warum? Diese Antwort ist der Kern des Antrags.
+
+Nicht fragen: "Ist das Produkt neu am Markt?" Sondern: "Ist die Technik dahinter ungeloest?"
+
+### Formulierungshilfe fuer Software-Projekte
+
+Die technische Unsicherheit muss praezise benannt werden:
+
+| Zu vage (wird abgelehnt) | Praezise (hat Chancen) |
+|--------------------------|----------------------|
+| "Wir setzen KI innovativ ein" | "Es ist unklar, ob eine Transformer-basierte Architektur bei heterogenen Eingabedaten die geforderte Klassifikationsgenauigkeit von 95% erreicht" |
+| "Wir automatisieren Prozesse mit ML" | "Die zuverlaessige Extraktion strukturierter Daten aus unstrukturierten Dokumenten mit variablem Layout erfordert einen neuartigen Ansatz, da bestehende OCR+NLP-Pipelines bei Layout-Varianz >30% versagen" |
+| "Wir bauen eine innovative Plattform" | "Die Echtzeit-Synchronisation verteilter Datenbestaende mit Konfliktaufloesung bei gleichzeitigem Offline-Betrieb ist technisch ungeloest fuer Datensaetze >10GB" |
+
 ## Taetigkeitsformen
 
 ### Eigenbetriebliche Forschung
@@ -350,10 +407,14 @@ Stelle gezielte Fragen:
 - Was genau wird erforscht/entwickelt?
 - Welches technische Problem wird geloest?
 - Was gibt es bereits am Markt/in der Forschung?
-- Was ist daran technisch schwierig/unsicher?
-- Wer arbeitet daran? (Qualifikationen)
-- Wie lange laeuft das Projekt?
+- Was ist daran technisch schwierig/unsicher? An welcher Stelle haette das Projekt scheitern koennen?
+- Bei Software/KI: Werden bestehende Tools nur konfiguriert/gepromptet oder entsteht technisch Neues?
+- Wer arbeitet daran? (Qualifikationen, Geschaeftsfuehrer oder Angestellte?)
+- Wie lange laeuft das Projekt? Seit wann wird daran gearbeitet?
 - Wird intern geforscht, extern beauftragt oder kooperiert?
+- Gibt es externe Dienstleister/Freelancer die mitarbeiten?
+- Welche Rechtsform hat das Unternehmen? (relevant fuer Foerdersatz und steuerliche Behandlung)
+- Ist es ein KMU? (< 250 MA, < 50 Mio. Umsatz)
 
 ### Schritt 2: FuE-Eignung bewerten
 Pruefe ehrlich, ob das Vorhaben die drei Kriterien erfuellt. Wenn nicht, sage es offen und erklaere warum. Es hilft niemandem, einen aussichtslosen Antrag zu stellen.
@@ -377,16 +438,20 @@ Fuehre die fuenf Sprachpruefungen durch (siehe Abschnitt "Sprache und Ton"):
 5. Zeichenoekonomie - Kein Zeichen verschwendet?
 Nutze die Referenz `references/antragssprache.md` fuer die vollstaendige Wortliste.
 
-### Schritt 5: Review und Iteration
+### Schritt 5: Review und Iteration (mit dem User)
 Gehe die Texte mit dem User durch und optimiere iterativ.
 
-### Schritt 5: Foerderung berechnen
+### Schritt 6: Foerderung berechnen
 Berechne die voraussichtliche Foerderhoehe basierend auf:
-- Personalkosten der FuE-Mitarbeiter
-- Eigenleistungen (Stundensatz x Stunden)
-- Auftragsforschungskosten
-- Gemeinkostenpauschale (20%)
+- Personalkosten der FuE-Mitarbeiter (anteilig nach FuE-Zeitanteil)
+- Geschaeftsfuehrergehaelter (realistischen FuE-Anteil ansetzen, nicht 100%)
+- Eigenleistungen Einzelunternehmer/Mitunternehmer (100 EUR/h x Stunden, max. 40h/Woche)
+- Auftragsforschung / externe Dienstleister (70% der Nettokosten)
+- Gemeinkostenpauschale (20%, nur fuer Projekte ab 01.01.2026)
 - Anwendbarer Foerdersatz (25% oder 35% KMU)
+- Bei GmbH: Hinweis auf Steuerpflicht der Zulage (Nettoeffekt geringer als Bruttobetrag)
+
+Fuer konkrete Rechenbeispiele verschiedener Szenarien siehe `references/berechnungsbeispiele.md`.
 
 ## Verbundene Unternehmen
 
@@ -419,5 +484,6 @@ KMU erhalten den erhoehten Foerdersatz von 35% statt 25%.
 
 Fuer vertiefte Informationen lies die entsprechenden Referenzdateien:
 - `references/ablehnungsgruende.md` - Detaillierte Analyse haeufiger Ablehnungsgruende mit Loesungsstrategien
-- `references/berechnungsbeispiele.md` - Konkrete Rechenbeispiele fuer verschiedene Szenarien
+- `references/antragssprache.md` - Sprachleitfaden: Ton, Stil, Vorher/Nachher-Beispiele auf Deutsch
+- `references/berechnungsbeispiele.md` - 7 konkrete Rechenbeispiele inkl. GF-Gehaelter und Steuerpflicht
 - `references/checkliste.md` - Vollstaendige Pruefcheckliste vor Einreichung
